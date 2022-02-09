@@ -15,6 +15,7 @@ A script to bypass Amazon Captcha
 ### Installation 
 
  https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.1.20220118.exe (Windows 64 bit)
+ And addd the installation path to `variable path`.
 
 ### Dependencies
  
