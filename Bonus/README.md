@@ -35,3 +35,5 @@ Any advise for common problems or issues.
 
 * 0.1
     * Initial Release
+
+## Thanks!
