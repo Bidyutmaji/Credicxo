@@ -5,8 +5,8 @@ scrap basic deatils from the amazon product pages
 ## Description
 * First created Asin number and Country two list from the `Amazon Scraping - Sheet1.csv` file.
 * Created list of all urls using  Asin number and Country lists.
-* Maked a `product_row`of  each scraped product the `Product Title`, `Product Image URL`, `Price of the Product` and `Product Details` from pages using ` concurrent.futures.ThreadPoolExecutor()`.
-*  Create  `amazon_data` list and append all the scrapped dicts.
+* Maked a `product_row` of  each scraped product the `Product Title`, `Product Image URL`, `Price of the Product` and `Product Details` from pages using ` concurrent.futures.ThreadPoolExecutor()`.
+*  Create  `amazon_data` list and append all  `product_row` dicts.
 *  Using `json.dump()` function created a `Amazon_Products.json` file.
 *  Optional: after connecting to local database and used ` cursor.executemany()` to dump the data.
 
