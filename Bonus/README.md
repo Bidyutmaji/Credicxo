@@ -12,6 +12,11 @@ A script to bypass Amazon Captcha
 
 ## Getting Started 
 
+### Installation 
+
+* For Windows only
+ *[https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.1.20220118.exe]
+
 ### Dependencies
  
 ```
