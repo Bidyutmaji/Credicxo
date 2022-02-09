@@ -4,15 +4,16 @@ A script to bypass Amazon Captcha
 
 ## Description
 * First fetched the url using `driver.get()` & find the captha image src using `driver.find_element(By.XPATH, '//*[@class.="a-row a-text-center"]/img').get_attribute('src')`.
-* Load the image in `requests.get(image_path, stream=True).raw` and then passed to `Image.open()` for apply some filter
+* Load the image in `requests.get(image_path, stream=True).raw` and then passed to `Image.open()`.
 * Filtered the image using `ImageFilter.GaussianBlur()`.
-* Then extracted the text from the filtered image ` pytesseract.image_to_string()`.
-* find the input field and filled the extracted text and click the `continue shopping` button. That's it. 
+* Then extract the text from the filtered image ` pytesseract.image_to_string()`.
+* Find the input field and filled the extracted text
+* Click the `continue shopping` button. That's it. 
+
 ## Getting Started 
 
 ### Dependencies
-
-* 
+ 
 ```
 import requests
 
