@@ -25,9 +25,6 @@ from selenium.webdriver.common.by import By
 ## Help
 
 Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
